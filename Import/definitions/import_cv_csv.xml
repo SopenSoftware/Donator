@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<config>
+<!-- "adresse";"Spende";"Art";"best";"Datum";"Bank";"Dankbrief";"Spendenquittung";"wörtlich";"dank erstellt";"bestätigung erstellt"-->
+    <model>Donator_Model_Donation</model>
+    <plugin>Donator_Import_CVCsv</plugin>
+    <type>import</type>
+    <headline>1</headline>
+	<dryrun>1</dryrun>
+	<dryruncount>10</dryruncount>
+    <delimiter>;</delimiter>
+	<description>CV Donation import</description>
+    <mapping>
+        <field>
+            <source>adresse</source>
+            <destination>contact_id</destination>
+        </field>
+        <field>
+            <source>Spende</source>
+            <destination>amount</destination>
+        </field>		
+        <field>
+            <source>Datum</source>
+            <destination>date</destination>
+        </field>
+		<field>
+            <source>Bank</source>
+            <destination>bank_account</destination>
+        </field>
+        <field>
+            <source>Art</source>
+            <destination>campaign</destination>
+        </field>
+    </mapping>
+</config>

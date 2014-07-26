@@ -1,0 +1,37 @@
+@CHARSET "ISO-8859-1";
+
+.DonatorIconCls {
+        background-image:url({$tineVersion}/images/16x16/special_paste.png) !important;
+}
+.x-btn-medium .DonatorIconCls {
+    background-image:url({$tineVersion}/images/22x22/special_paste.png) !important;
+}
+.x-btn-large .DonatorIconCls {
+    background-image:url({$tineVersion}/images/32x32/special_paste.png) !important;
+}
+
+.action_useGrouping{
+	
+}
+
+.action_useGrouping {
+    background-image:url({$tineVersion}/images/oxygen/16x16/actions/fileview-detailed.png) !important;
+}
+.x-btn-medium .action_useGrouping {
+    background-image:url({$tineVersion}/images/oxygen/22x22/actions/fileview-detailed.png) !important;
+}
+.x-btn-large .action_useGrouping {
+    background-image:url({$tineVersion}/images/oxygen/32x32/actions/fileview-detailed.png) !important;
+}
+
+.action_viewSplit {
+	 background-image:url({$tineVersion}/images/oxygen/16x16/actions/fileview-split.png) !important;
+}
+
+.x-btn-medium .action_viewSplit {
+    background-image:url({$tineVersion}/images/oxygen/22x22/actions/fileview-split.png) !important;
+}
+.x-btn-large .action_viewSplit {
+    background-image:url({$tineVersion}/images/oxygen/32x32/actions/fileview-split.png) !important;
+}
+
